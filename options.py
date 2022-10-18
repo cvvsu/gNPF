@@ -28,7 +28,7 @@ def get_args():
     # datasets
     parser.add_argument('--dataroot', type=str, default='datasets', help='folder that stores the datasets')
     parser.add_argument('--num_workers', type=int, default=8, help='number of workers')
-    parser.add_argument('--batch_size', type=int, default=32, help='mini batch size')
+    parser.add_argument('--batch_size', type=int, default=64, help='mini batch size')
     parser.add_argument('--vmax', type=float, default=1e4, help='maximum value for normalization')
     parser.add_argument('--station', type=str, default='hyy', help='station [hyy | kum | var | all]')
 
