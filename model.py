@@ -5,7 +5,7 @@ from datetime import datetime
 import torch 
 from torch import nn 
 
-from network import GANLoss, cal_gradient_penalty, get_networks, get_gradient_penalty
+from network import GANLoss, get_networks, get_gradient_penalty
 from utils import mkdirs
 
 
