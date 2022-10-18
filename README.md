@@ -2,9 +2,17 @@
 
 PyTorch code for generating particle number size distribution (PNSD) datasets.
 
+For datasets, you can use the code [get_datasets](https://github.com/cvvsu/maskNPF/blob/main/utils/get_datasets.py) to download the measured PNSD for SMEAR I, II, and III from [https://smear.avaa.csc.fi/](https://smear.avaa.csc.fi/).
+
+You can also use the datasets we have already downloaded:
+
+[measured PNSD for SMEAR I, II, III](https://github.com/cvvsu/gNPF/releases/tag/v0.0)
+
+Put the datasets under the folder `datasets` and rename them with the names `var`, `hyy`, and `kum` for SMEAR I, II, and III, respectively.
+
 ## Data Augmentation
 
-Though we have observations for many years, while we need more samples in the observed PNSD datasets.
+Though we have observations for many years, we need more samples for training.
 For data augmentation, please run (use `hyy` and `kum` for SMEAR II and III, respectively)
 
 ```
