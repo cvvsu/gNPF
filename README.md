@@ -16,7 +16,7 @@ $ python3 datasets/obtain_csv.py --station var
 We use the WGAN-GP as the default model, which can alleviate the mode collapse problem.
 
 ```
-$ python3 demo.py --exp_name var --epochs 20 --dataroot datasets --batch_size 64 --lr 0.0001 --lambda_gp 10 --station var
+$ python3 demo.py --exp_name var --station var --epochs 20 --dataroot datasets --batch_size 64 --lr 0.0001 --lambda_gp 10 
 ```
 
 To visualize the generated results, please refer to the `demo.ipynb` file for more details.
